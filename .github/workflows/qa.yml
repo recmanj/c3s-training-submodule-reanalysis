@@ -22,7 +22,7 @@ permissions:
 
 jobs:
   notebook-qa:
-    uses: recmanj/ecmwf-training-reusable-workflows/.github/workflows/notebook-qa.yml@qa-table-summary
+    uses: recmanj/ecmwf-training-reusable-workflows/.github/workflows/notebook-qa.yml@qa-table-plumber-tests
     with:
       notebooks: ${{ inputs.notebooks || '' }}
     secrets:
