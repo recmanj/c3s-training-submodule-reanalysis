@@ -1,0 +1,5 @@
+pynblint:
+  exclude:
+    - non-linear-execution
+    - non-executed-cells
+    - cell-too-long
