@@ -26,6 +26,7 @@ jobs:
     with:
       notebooks: ${{ inputs.notebooks || '' }}
       qa_tools_repo: recmanj/ecmwf-training-reusable-workflows
+      qa_tools_ref: qa-table-plumber-tests
     secrets:
       CDSAPI_KEY: ${{ secrets.CDSAPI_KEY }}
 
